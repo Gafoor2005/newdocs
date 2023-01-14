@@ -1,0 +1,20 @@
+{
+    "info_data": [
+        {
+            "type": "title",
+            "value": "Data Types in C"
+        },
+        {
+            "type": "code",
+            "value": "data types :      \n           1. integers \n                 1.1 signed integers\n                 1.2 unsigned integers\n           2. floats\n           3. chars\n\nintegers :\n     signed integers:\n\n              short / short int / signed short / signed short int :\n                               size : 2 bytes\n\t\t                min : -32768\n\t\t                max : 32767\n\t\t                format specifier : %hd / %hi\n\n              int / signed int :\n                      \t\tsize : 4 bytes\n\t\t\t\tmin : -2147483648\n\t\t\t\tmax : 2147483647\n\t\t\t\tformat specifier : %i / %d\n\n              long / long int / signed long / signed long int :\n\t\t\t\tsize : 4 bytes\n\t\t\t\tmin : -2147483648\n\t\t\t\tmax : 2147483647\n\t\t\t\tformat specifier : %ld / %li\n\n              long long / long long int / signed long long /signed long long int :\n\t\t\t\tsize : 8 bytes\n\t\t\t\tmin : -9223372036854775808\n\t\t\t\tmax : 9223372036854775807\n\t\t\t\tformat specifier : %lld / %lli\n\n     unsigned integers:\n             \n            unsigned short / unsigned short int :\n\t\t\t\tsize : 2 bytes\n\t\t\t\tmin : 0\n\t\t\t\tmax : 65535\n\t\t\t\tformat specifier : %hu\n        \n            unsigned int :\n\t\t\t\tsize : 4 bytes\n\t\t\t\tmin : 0\n\t\t\t\tmax : 4294967295\n\t\t\t\tformat specifier : %u\n\n            unsigned long / unsigned long int :\n\t\t\t\tsize : 4 bytes\n\t\t\t\tmin : 0\n\t\t\t\tmax : 4294967295\n\t\t\t\tformat specifier : %lu\n\n            unsigned long long / unsigned long long int :\n\t\t\t\tsize : 8 bytes\n\t\t\t\tmin : 0\n\t\t\t\tmax : 18446744073709551615\n\t\t\t\tformat specifier : %llu\n              \nfloats :\n\n          float :\n\t\t\tsize : 4 bytes\n\t\t\tmin : 0.000000\n\t\t\tmax : 3.402823e+38\n\t\t\tformat specifier : %f\n\n          double :\n\t\t\tsize : 8 bytes\n\t\t\tmin : 0.000000\n\t\t\tmax : 1.797693e+308\n\t\t\tformat specifier : %lf\n\n          long double :\n\t\t\tsize : 16 bytes\n\t\t\tmin : 0.000000\n\t\t\tmax : 4.192040e-312\n\t\t\tformate specifier : %Lf\n\nchar :\n\t\tsize : 1 bytes\n\t\tformate specifier : %c\n\n   \n\n\n\n\n                          "
+        },
+        {
+            "type": "code",
+            "value": "#include<stdio.h>\n\nint main(){\n    printf(\"hello world\");\n    \n    // Note : there are two types in each datatypes they are\n    // 1. signed (+/-)  --> it is defaultly used if not mentioned.\n    // 2. unsigned (only +)\n\n    // types of integers\n        // signed       \n        short a1;       \n        int a2;         \n        long a3;        \n        long long a4;   \n        \n        // unsigned\n        unsigned short a11;\n        unsigned int a22;\n        unsigned long a33;\n        unsigned long long a44;\n\n    // types of floats\n    float b1;\n    double b2;\n    long double b2;\n\n    // types of chars\n    char c1;\n\n    return 0;\n}"
+        },
+        {
+            "type": "desc",
+            "value": "note : this information is for 32 bit compilers"
+        }
+    ]
+}

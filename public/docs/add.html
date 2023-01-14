@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h3>c Docs</h3>
+        <nav>
+            <a href="/docs/c"><button>c</button></a>
+            <a href="/docs/cpp"><button>c++</button></a>
+            <a href="/docs/add"><button style="background-color: black; color:white;">+ add</button></a>
+            <!-- <a href="./hello"><button>hello html</button></a> -->
+            
+        </nav>
+    </header>
+    <main>
+        <div class="langs divtemp">
+            
+            <!-- <div class="lang_temp content_temp">
+                <h1>C</h1>
+                <h3>+ add</h3>
+                <h4>C language</h4>
+            </div> -->
+            
+            <!-- <div class="add_temp content_temp">
+                <h1>+</h1>
+                <h3>add a new language</h3>
+                <h4>New</h4>
+            </div> -->
+            
+        </div>
+
+        <div class="div_box" id="div_box" >
+
+            <div class="main_title" >
+                <h1 style="color: white;" >title</h1> 
+                <div class="back_btn btn" style="display: flex;align-items: center;justify-content: center; " >
+                    <h1>eXit</h1>
+                </div>
+            </div>
+            <div class="main_inpt">
+                <div class="data_inpt none">
+
+                    <label for="topic name">
+                        Name of topic/file :
+                    </label>
+                    <input name="name of topic/file" type="text"  id="inpt_topic" placeholder="enter topic/file name" >
+                    <label for="title name">
+                        enter title :
+                    </label>
+                    <input name="title" type="text" class="data_inpt_value" placeholder="enter title" >
+                    <label for="desc">
+                        description :
+                    </label>
+                    <textarea name="desc" class="data_inpt_value" cols="40" rows="10" placeholder="enter some words" style="font-size: large;"  ></textarea>
+                    <label for="code">
+                        source code :
+                    </label>
+                    <textarea name="code" class="code_font data_inpt_value" cols="40" rows="10" placeholder="enter some words" style="font-size: large;"  ></textarea>
+                    
+                </div>
+                <div class="select_edit_options">
+
+                    <li><button class="btn" onclick="create_topic()" >create a topic</button></li>
+                    <li><button class="btn" >edit a topic</button></li>
+
+                </div>
+                <ul class="inpt_tools none">
+                    <li><button class="btn" onclick="add_title()" > add title</button></li>
+                    <li><button class="btn" onclick="add_text()" > add text</button></li>
+                    <li><button class="btn" onclick="add_code()" >add code</button></li>
+                    <li><button class="btn"  >add image</button></li>
+                    <li><button class="btn" onclick="submit_add()" ><b>submit</b></button></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </main>
+
+
+
+    <script src="./add.js"></script>
+</body>
+</html>

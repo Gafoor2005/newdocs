@@ -1,0 +1,1 @@
+{"info_data":[{"type":"title","value":"operators in c"},{"type":"desc","value":"there are some operators to perform operations.\nexample:"},{"type":"code","value":"+ addition\n- subtraction\n* multiplication\n/ division (only coefficient)\n% modular division (only reminder)\n"}]}
